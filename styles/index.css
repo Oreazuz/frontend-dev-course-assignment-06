@@ -118,6 +118,7 @@ h4{
 
     color: #2F281E;
     margin-bottom: 12px;
+    margin-top: 25px;
 }
 p{
         font-family: 'Poppins', sans-serif;
@@ -177,4 +178,39 @@ p{
 
 .section--4-bullets{
     margin: 30px;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    min-width: 1110px;
+    min-height: 308px;
+    border-top: 1px solid #BCD0E5;
+    align-items: flex-end;
+    margin-bottom: 83px;
+}
+.footer--logo{
+    position: relative;
+    align-self: flex-start;
+    top:105px;
+}
+
+.footer--text{
+    display:flex;
+    flex-direction: column;
+    /* align-self: flex-end; */
+}
+
+.footer--form{
+    width: 325px;
+    height: 48px;
+    border: 1px solid #BCD0E5;
+    background-color:white;
+    border-radius: 4px;
+    margin-bottom: 21px;
+}
+
+.footer--button{
+    width:131px;
+    height: 39px;
 }
