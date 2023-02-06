@@ -1,7 +1,7 @@
 body{
-    /* display: flex;
+    display: flex;
     flex-direction: column;
-    align-items: center; */
+    align-items: center;
 }
 
 .nav--bar{
@@ -10,8 +10,8 @@ body{
     min-width: 1400px;
     height:78px;
     align-items: center;
-
-    position: relative;
+    justify-content: center;
+    /* position: relative; */
 }
 .nav--bar-logo{
     justify-self: flex-start;
@@ -59,10 +59,10 @@ button{
 
 
 
-.section--top{
+.section--1{
     display: flex;
     max-width: 1126px;
-/* justify-content: center; */
+    /* justify-content: center; */
     align-items: center;
     /* margin-top:30px; */
 
@@ -133,7 +133,7 @@ p{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /* align-items: center; */
+    align-items: center;
 }
 .section--2-title{
     max-width: 539px;
@@ -157,6 +157,7 @@ p{
 .section--3{
     display: flex;
     /* justify-content: center; */
+    align-items: center;
 }
 .section--3-left{
     display: flex;
@@ -164,4 +165,16 @@ p{
     max-width: 486px;
     height: 531px;
     /* justify-content: space-evenly; */
+}
+
+.section--4{
+    display: flex;
+}
+
+.section--4-right{
+    max-width: 486px;
+}
+
+.section--4-bullets{
+    margin: 30px;
 }
