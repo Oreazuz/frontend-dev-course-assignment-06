@@ -1,4 +1,167 @@
+body{
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+}
+
 .nav--bar{
     display:flex;
-    margin-top: 20px;
+    top:20px;
+    min-width: 1400px;
+    height:78px;
+    align-items: center;
+
+    position: relative;
+}
+.nav--bar-logo{
+    justify-self: flex-start;
+}
+.nav--bar-links{
+    margin-right: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #2F281E;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 28px;
+    margin-right: 20px;
+}
+
+button{
+    border-radius: 4px;
+    margin-right: 14px;
+    font-style: normal;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 24px;
+}
+.nav--bar-buttons{
+    width: 102px;
+    height: 46px;
+   
+    justify-self: flex-end;
+}
+.button-white{
+    border: 1px solid #BCD0E5;
+    background-color:white;
+    color: #173A56;
+}
+
+.button-orange{
+    border: none;
+    background-color: #FF9900;
+    color: #FFFFFF;
+}
+
+
+
+.section--top{
+    display: flex;
+    max-width: 1126px;
+/* justify-content: center; */
+    align-items: center;
+    /* margin-top:30px; */
+
+}
+.section--left{
+
+}
+.button--get-started{
+    width: 175px;
+    height: 53px;
+}
+
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 54px;
+    /* or 123% */
+
+
+    color: #2F281E;
+}
+h2{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 54px;
+    /* text-align: center; */
+
+    color: #2F281E;
+    margin-bottom: 22px;
+}
+h3{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 33px;
+    /* identical to box height */
+
+
+    color: #2F281E;
+    margin-bottom: 13px;
+}
+h4{
+    font-family: sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    /* identical to box height, or 162% */
+
+
+    color: #2F281E;
+    margin-bottom: 12px;
+}
+p{
+        font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    /* or 156% */
+
+
+    color: #544837;
+}
+.section--2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+}
+.section--2-title{
+    max-width: 539px;
+}
+
+.section--2-cardholder{
+    display: flex;
+    /* justify-content: space-between; */
+}
+.section--2-card{
+    display: flex;
+    flex-direction: column;
+    max-width: 240px;
+    margin:0 20px;
+}
+.section--2-button{
+    width: 175px;
+    height: 53px;
+}
+
+.section--3{
+    display: flex;
+    /* justify-content: center; */
+}
+.section--3-left{
+    display: flex;
+    flex-direction: column;
+    max-width: 486px;
+    height: 531px;
+    /* justify-content: space-evenly; */
 }
